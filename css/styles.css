@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Default */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utitlities */
+
+.container-xl {
+  max-width: 1500px;
+}
+
+.container-lg {
+  max-width: 1200px;
+}
+
+.container-big {
+  max-width: 100%;
+}
+
+.container-md {
+  max-width: 1100px;
+}
+
+.container-sm {
+  max-width: 900px;
+}
+
+.container-vsm {
+  max-width: 500px;
+}
+
+.container-stars {
+  max-width: 700px;
+}
+
+/* Styles */
+
+html,
+body {
+  font-family: 'League Spartan', sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  background: url('./../images/bg-pattern-top-mobile.svg') center center/cover no-repeat;
+}
